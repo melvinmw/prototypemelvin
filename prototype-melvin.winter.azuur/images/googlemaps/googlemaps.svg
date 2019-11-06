@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 400" style="enable-background:new 0 0 500 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF0000;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:7.2025px;}
+	.st4{font-size:9.3735px;}
+</style>
+<image style="overflow:visible;enable-background:new    ;" width="1300" height="928" xlink:href="gmaps1.jpg"  transform="matrix(0.4846 0 0 0.4846 -64 -38.36)">
+</image>
+<g>
+	<rect x="142.3" y="86.6" class="st0" width="58.6" height="26.4"/>
+	<polygon class="st0" points="166.1,112.2 169.2,121.8 173.6,112.2 	"/>
+	<text transform="matrix(0.9524 0 0 1 153.7684 101.8585)" class="st1 st2 st3">Anne &amp; Max</text>
+</g>
+<g>
+	<rect x="78.9" y="112.9" class="st0" width="58.6" height="26.4"/>
+	<polygon class="st0" points="102.7,138.4 105.8,148 110.2,138.4 	"/>
+	<text transform="matrix(0.9524 0 0 1 84.7479 128.5948)" class="st1 st2 st4">Back to Black</text>
+</g>
+<g>
+	<rect x="52.6" y="181" class="st0" width="58.6" height="26.4"/>
+	<polygon class="st0" points="76.4,206.5 79.6,216.1 84,206.5 	"/>
+	<text transform="matrix(0.9524 0 0 1 54.5497 196.6993)" class="st1 st2 st4">OBA Oosterdok</text>
+</g>
+<g>
+	<rect x="89.2" y="285.4" class="st0" width="58.6" height="26.4"/>
+	<polygon class="st0" points="112.9,310.9 116.1,320.5 120.6,310.9 	"/>
+	<text transform="matrix(0.9524 0 0 1 91.0634 301.1177)" class="st1 st2 st4">Banne Library</text>
+</g>
+<g>
+	<rect x="237.3" y="247.1" class="st0" width="58.6" height="26.4"/>
+	<polygon class="st0" points="261.1,272.7 264.2,282.3 268.7,272.7 	"/>
+	<text transform="matrix(0.9524 0 0 1 247.0902 263.5093)" class="st1 st2 st4">Starbucks</text>
+</g>
+</svg>

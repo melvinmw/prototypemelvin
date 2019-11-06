@@ -1,0 +1,543 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color:black;
+}
+
+h1 {
+	font-size:2.5rem;
+	margin-top:5rem;
+	margin-left:5rem;
+	padding-top:3rem;
+	padding-bottom:2rem;
+}
+
+
+h2 {
+font-size:1.8em;
+	margin-bottom:2rem;
+	margin-left:5rem;
+}
+
+p {
+font-size:1rem;
+
+}
+
+p.naam {
+	font-weight: bold;
+	margin-left: 1rem;
+}
+
+p.open {
+	color:green;
+}
+
+p.closed {
+	color:red;
+}
+
+
+p.naam, p.open, p.afstand,p.closed {
+	display: inline;
+}
+
+p.open, p.afstand,p.closed {
+	margin-left:1rem;
+}
+
+header {
+	background-color: red;
+text-align:center;
+padding:1rem;
+position: sticky;
+top:0;	
+display: flex;
+justify-content: space-around;
+}
+
+a.logo {
+	color:white;
+	font-size:3.5rem;
+	text-decoration: none;
+}
+
+main {
+	background-color:white;
+	width:80%;
+	margin:auto;
+	margin-top:5rem;
+	padding-bottom:5rem;
+}
+
+img.plek {
+	width:39rem;
+	border:1px solid black;
+	margin-bottom: 0;
+}
+
+img.wifi {
+	width:2rem;
+	margin-left: 1rem;
+}
+
+img.coffee {
+	width:2rem;
+	margin-left:2rem;
+}
+
+img.user, img.user2 {
+	width:2rem;
+}
+
+img.user {
+margin-left:2rem;
+}
+
+img.nearby {
+	width:2rem;
+	margin-left:28rem;
+}
+
+h2, img.nearby{
+	display: inline;
+}
+
+img.euro {
+	width:2rem;
+	margin-left:2rem;
+}
+
+img.euro2 {
+	width:2rem;
+}
+
+img.heart {
+	width:3rem;
+	color:red;
+	margin-left:13rem;
+}
+
+img.heart2 {
+	width:3rem;
+	color:red;
+	margin-left:18rem;
+}
+
+img.heart3 {
+	width:3rem;
+	color:red;
+	margin-left:14rem;
+}
+
+section.rand {
+	margin-top:2rem;
+	border:2px solid black;
+	width:39.2rem;
+	margin-left:5rem;
+	margin-bottom:3rem;
+}
+
+footer {
+	background-color:red;
+	display: flex;
+justify-content: center;
+margin-top:10rem;
+}
+
+nav {
+position: fixed;
+left: 0;
+bottom: 0;
+background-color: red;
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+nav a {
+	color:white;
+	padding:1rem;
+}
+
+header a i {
+color:white;
+margin-top:0.5rem;
+}
+
+img.gmaps {
+	width:49rem;
+}
+
+.infobox {
+	margin-top:2rem;
+	margin-left: 3rem;
+}
+
+.infobox img {
+	width: 1.5rem;
+	margin-top:0.5rem;
+}
+
+hr {
+	margin-top:1rem;
+}
+
+.visit {
+display: block;
+margin-left: 1rem;
+background-color: red;
+color: white;
+padding: 0.5rem 1.5rem;
+text-align: center;
+width: 3rem;
+border-radius: 2rem;
+margin-top: 0.5rem;
+}
+
+h1>i {
+	color:red;
+	margin-left:25rem;
+}
+
+.sterren {
+	margin-left:5rem;
+	color:red;
+}
+
+.sterren a {
+	margin-left:2rem;
+}
+
+
+img.plek2 {
+	width:39rem;
+	margin-top:2rem;
+	margin-left:5rem;
+}
+
+.user3 {
+	width:1.5rem;
+	margin-left:5rem;
+	margin-top:1rem;
+}
+
+.user4 {
+	width: 1.5rem;
+}
+
+.reviewss {
+	margin-top:2rem;
+}
+
+.reviewss a {
+	margin-left:5rem;
+	
+}
+
+.reviewss h2, .reviewss a {
+	margin-bottom: 1rem;
+}
+
+blockquote {
+	color:black;
+	font-size:1.4rem;
+	width: 35rem;
+	margin-left:5rem;
+	margin-top: 1rem;
+	margin-bottom:2rem;
+}
+
+.rand p.naam, .rand p.open, .rand p.afstand {
+	font-size:1.5rem;
+}
+
+.infobox p.naam, .infobox p.open, .infobox p.afstand {
+	display: inline-block;
+}
+
+.infobox img.wifi + .infobox img.coffee {
+	display: block;
+}
+
+.infobox img.coffee {
+	display: inline;
+}
+
+.infobox p {
+	font-size:1.5rem;
+}
+
+.icon {
+	width: 2rem;
+	margin-left:5rem;
+}
+
+.icon2{
+	width: 2rem;
+	margin-left:0.5rem;
+}
+
+.iconinfo {
+	display: inline-block;
+	margin-left:2rem;
+	font-size:1.5rem;
+}
+
+.reviewroute {
+	margin-top:3rem;
+}
+
+
+.routeknop, .reviewknop {
+	margin-left:5rem;
+background-color:red;
+color:white;
+margin-top:2rem;
+font-size:2rem;
+padding:0.5rem 2rem;
+border-radius: 2rem;
+text-decoration: none;
+}
+
+table {
+	margin-left: 5rem;
+	margin-bottom: 3rem
+	}
+
+caption {
+	font-size: 2rem;
+	text-align:left;
+}
+
+th, td {
+	font-size: 2rem; 
+	text-align:left;
+border:2px solid black;
+border-collapse:all;
+padding:1rem;
+
+}
+
+tr:nth-child(odd) {
+	background-color: rgba(250,0,0,0.2);
+}
+
+.tip {
+	margin-left:5rem;
+	font-size:1.5rem;
+}
+
+.travel {
+	margin-left:5rem;
+	width: 38rem;
+	margin-top:2rem;
+	margin-bottom:3rem;
+}
+
+.visit9292 {
+	background-color:red;
+	color:white;
+	margin-left:5rem;
+	font-size:2rem;
+	padding:0.5rem 2rem;
+	border-radius: 2rem;
+}
+
+.addrevieww {
+background-color:red;
+	color:white;
+	margin-left:25rem;
+font-size:0.8rem;
+	padding:1rem 1.6rem;
+border-radius: 10rem;
+	text-decoration: none;	
+
+}
+
+.box {
+	padding:2rem 0;
+}
+
+.box:nth-child(even) {
+	background-color:#f0f0f0;
+}
+
+p.name,p.date,.box i.fa-star {
+	margin-left:5rem;
+}
+
+
+.opmerking2 {
+	font-size:1.8rem;
+}
+
+p.name,p.date {
+	font-size:0.6rem;
+}
+
+h1.kopreview {
+	font-size:1rem;
+	margin-top:5rem;
+	margin-left:5rem;
+
+}
+
+p.name {
+	font-weight: bold;
+}
+
+#ster001 {
+	color:red;
+}
+
+#ster002 {
+	color:red;
+	margin-left:1rem;
+}
+
+.naam2 {
+	font-size:2em;
+text-align:center;
+	margin-bottom:3rem;
+}
+
+.naam2 input {
+border:2px solid black;
+padding:1rem;
+margin-top:1rem;
+font-size:0.6em;
+text-align:center;
+}
+
+label {
+	font-size:1rem;
+}
+
+.textbox {
+	border:2px solid grey;
+	width:26rem;
+	margin:3rem 9.5rem;
+	text-align:center;
+	font-size:2rem;
+	padding:1em;
+}
+
+::placeholder {
+color:grey;
+font-size:1.3rem;
+}
+
+
+.sterren4 p{
+	text-align: center;
+	font-size:1.6em;
+}
+
+
+.ccheckbox {
+	margin-top:2rem;
+	margin-left:17rem;
+}
+
+input[type=checkbox] + label {
+  display: inline;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2713";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .3s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: red;
+  border-color: red;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(4);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+.cancel {
+	color:red;
+	margin-left:13rem;
+}
+
+.sendd {
+	background-color: red;
+	color:white;
+	padding:1rem 3rem;
+	margin-left: 8rem;
+}
+
+.sendd, .cancel {
+	font-size:2em;
+	margin-top:5rem;
+}
+
+.title3 {
+	text-align:center;
+	margin:0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.heart20 {
+	width:2rem;
+	margin-left:5rem;
+}
+
+.red {
+	width:2rem;
+}
+
+#lichtrood {
+	color:rgba(255,80,0,0.3);
+}
+
+.sterren5 {
+	color:red;
+	margin-top:1rem;
+	margin-left:1rem;
+	display: inline;
+}
+
+.fa-share {
+	color:white;
+	width:4rem;
+	margin-top:0.6rem;
+}
